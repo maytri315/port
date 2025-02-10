@@ -114,7 +114,7 @@ p {
 
 .typing {
   width: 20ch;
-  animation: typing 5s steps(22) forwards, blink-caret 0.5s step-end infinite;
+  animation: typing 5s steps(32) forwards, blink-caret 0.5s step-end infinite;
   white-space: nowrap;
   overflow: hidden;
   border-right: 0.15em solid orange;
@@ -125,7 +125,7 @@ p {
 
 @keyframes typing {
   from { width: 0; }
-  to { width: 22ch; }
+  to { width: 32ch; }
 }
 
 @keyframes blink-caret {
